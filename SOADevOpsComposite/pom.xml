@@ -83,6 +83,18 @@
       <url>https://maven.oracle.com</url>
     </pluginRepository>
   </pluginRepositories>
+  <distributionManagement>
+    <repository>
+      <id>DevOpsExamples_repo</id>
+      <name>DevOpsExamples Maven Repository</name>
+      <url>https://developer.em2.oraclecloud.com/profile/developer37663-gse00001970/s/developer37663-gse00001970_devopsexamples_5344/maven/</url>
+    </repository>
+    <snapshotRepository>
+      <id>DevOpsExamples_repo</id>
+      <name>DevOpsExamplesMaven Repository</name>
+      <url>https://developer.em2.oraclecloud.com/profile/developer37663-gse00001970/s/developer37663-gse00001970_devopsexamples_5344/maven/</url>
+    </snapshotRepository>
+  </distributionManagement>  
   <build>
     <plugins>
       <plugin>
