@@ -106,7 +106,7 @@
         <version>12.2.1-2-0</version>
         <configuration>
           <ojdeploy>
-            ${oracleHome}/jdev/bin/ojdeploy.exe
+            ${oracleHome}/jdev/bin/ojdeploy
           </ojdeploy>
           <workspace>
             ${basedir}/../SOADevOpsApplication.jws
