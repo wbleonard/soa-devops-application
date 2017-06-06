@@ -56,7 +56,7 @@
         <sca.ant.testfile>${env.MW_HOME}/soa/bin/ant-sca-test.xml</sca.ant.testfile>
         -->
     <oracleHome>
-      ${env.ORACLE_HOME}
+      ${env.ORACLE_HOME_SOA_12_2_1}
     </oracleHome>
   </properties>
   <repositories>
@@ -106,7 +106,7 @@
         <version>12.2.1-2-0</version>
         <configuration>
           <ojdeploy>
-            ${oracleHome}/jdeveloper/jdev/bin/ojdeploy.exe
+            ${oracleHome}/jdev/bin/ojdeploy.exe
           </ojdeploy>
           <workspace>
             ${basedir}/../SOADevOpsApplication.jws
